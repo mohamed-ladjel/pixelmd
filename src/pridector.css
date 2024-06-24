@@ -1,0 +1,23 @@
+.parent-container {
+    background-color: #fff;
+  }
+.conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 1fr distributes the available space equally */
+    gap: 10px;
+}
+
+.box {
+    max-height: 300px;
+    height: 550px;
+    max-width: 550px;
+    width:550px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(230, 230, 231, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.005);
+}
